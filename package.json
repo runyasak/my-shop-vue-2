@@ -1,6 +1,7 @@
 {
   "name": "my-shop-vue-2",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "scripts": {
     "serve": "vite",
