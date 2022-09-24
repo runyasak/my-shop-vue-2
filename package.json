@@ -16,6 +16,7 @@
     "vue-router": "^3.5.1"
   },
   "devDependencies": {
+    "@types/storefront-ui__vue": "^0.7.3",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "@vitejs/plugin-vue2": "^2.0.0",

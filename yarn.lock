@@ -1296,6 +1296,11 @@
     "@types/qs" "*"
     "@types/serve-static" "*"
 
+"@types/glidejs__glide@*":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@types/glidejs__glide/-/glidejs__glide-3.4.3.tgz#fff95a0c38ff808fff43b09fee165685a096bacf"
+  integrity sha512-sJHLeDNBojkTvjvhuU9YtTbnb9jxLvtOsYNNUn0kkYzrON39h69QOyGmMd/AfOSw2oSz5tJpOW7UapG5tNYv0A==
+
 "@types/html-minifier-terser@^6.0.0":
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/@types/html-minifier-terser/-/html-minifier-terser-6.1.0.tgz#4fc33a00c1d0c16987b1a20cf92d20614c55ac35"
@@ -1386,6 +1391,15 @@
   integrity sha512-f0KEEe05NvUnat+boPTZ0dgaLZ4SfSouXUgv5noUiefG2ajgKjmETo9ZJyuqsl7dfl2aHlLJUiki6B4ZYldiiw==
   dependencies:
     "@types/node" "*"
+
+"@types/storefront-ui__vue@^0.7.3":
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/@types/storefront-ui__vue/-/storefront-ui__vue-0.7.3.tgz#aedb6941a2712e700a83fa2cce4122b2e83d245e"
+  integrity sha512-nBuIo/y5cHOxLLDQ6l+fy/noL2SsugIZbyLga9GYW9P7DWSEpieg1KQp77OknpEW1NgBWli1nmkbS9hmFtvZzA==
+  dependencies:
+    "@types/glidejs__glide" "*"
+    vue "^2.0.0"
+    vue-router "^3.0.0"
 
 "@types/trusted-types@^2.0.2":
   version "2.0.2"
@@ -6935,6 +6949,11 @@ vue-loader@^17.0.0:
     hash-sum "^2.0.0"
     loader-utils "^2.0.0"
 
+vue-router@^3.0.0:
+  version "3.6.5"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.6.5.tgz#95847d52b9a7e3f1361cb605c8e6441f202afad8"
+  integrity sha512-VYXZQLtjuvKxxcshuRAwjHnciqZVoXAjTjcqBTz4rKc8qih9g9pI3hbDjmqXaHdgL3v8pV6P8Z335XvHzESxLQ==
+
 vue-router@^3.5.1:
   version "3.5.4"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.5.4.tgz#c453c0b36bc75554de066fefc3f2a9c3212aca70"
@@ -6958,7 +6977,7 @@ vue2-leaflet@^2.5.2:
   resolved "https://registry.yarnpkg.com/vue2-leaflet/-/vue2-leaflet-2.7.1.tgz#2f95c287621bf778f10804c88223877f5c049257"
   integrity sha512-K7HOlzRhjt3Z7+IvTqEavIBRbmCwSZSCVUlz9u4Rc+3xGCLsHKz4TAL4diAmfHElCQdPPVdZdJk8wPUt2fu6WQ==
 
-vue@^2.6.12:
+vue@^2.0.0, vue@^2.6.12:
   version "2.7.10"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.7.10.tgz#ae516cc6c88e1c424754468844218fdd5e280f40"
   integrity sha512-HmFC70qarSHPXcKtW8U8fgIkF6JGvjEmDiVInTkKZP0gIlEPhlVlcJJLkdGIDiNkIeA2zJPQTWJUI4iWe+AVfg==
